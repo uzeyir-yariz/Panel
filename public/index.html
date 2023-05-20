@@ -8,32 +8,43 @@
 </head>
 <body>
     <div class="container mx-auto py-4">
-        <form>
+        <form class="justify-center itesm-center flex-col flex">
             <div class="mb-4">
-                <label class="block text-gray-700 font-bold mb-2" for="urunFiyati">
-                    Ürün Fiyatı
+                <label class="block text-gray-700 font-bold mb-2" for="urun_baslik">
+                    Ana Başlık
                 </label>
-                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="urunFiyati" type="text" placeholder="Ürün Fiyatı">
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="urun_baslik" type="text" placeholder="Ana Başlık">
             </div>
+
             <div class="mb-4">
-                <label class="block text-gray-700 font-bold mb-2" for="resimURL">
-                    Resim URL'si
+                <label class="block text-gray-700 font-bold mb-2" for="urun_ismi">
+                    Ürün İsmi
                 </label>
-                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="resimURL" type="text" placeholder="Resim URL'si">
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="urun_ismi" type="text" placeholder="Ürün İsmi">
             </div>
+
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="resimDosyasi">
+                    Resim Dosyası
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="resimDosyasi" type="file">
+            </div>            
+
             <div class="mb-4">
                 <label class="block text-gray-700 font-bold mb-2" for="tlFiyati">
                     TL Fiyatı
                 </label>
                 <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="tlFiyati" type="text" placeholder="TL Fiyatı">
             </div>
+
             <div class="mb-4">
                 <label class="block text-gray-700 font-bold mb-2" for="kurusFiyati">
                     Kuruş Fiyatı
                 </label>
                 <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="kurusFiyati" type="text" placeholder="Kuruş Fiyatı">
             </div>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" onclick="createPage()">Sayfa Oluştur</button>
+
+            <button class="duration-500 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" onclick="createPage()">Sayfa Oluştur</button>
         </form>
     </div>
     <script src="script.js"></script>

@@ -1,3 +1,24 @@
-/* #navbar_picture{
-    background-image: url('/src/src_img/desen.jpg');
-} */
+.main-box {
+    width: 96%;
+    /* height: 100px; 
+    background-color: #ff7b00;
+    position: absolute; 
+    display: flex; 
+    justify-content: flex-end; */
+  }
+  
+  /* .second-box {
+    width: 50%;
+    height: 50px;
+    background: #3cff00;
+  } */
+  
+  .trig {
+    /* width: 0;
+    height: 0; */
+    border-bottom-width: 64px;
+    border-bottom-color: transparent;
+    border-right-width: 70px;
+    --tw-bg-opacity: 1;
+    border-right-color: rgb(74 222 128 / var(--tw-bg-opacity));
+  }
